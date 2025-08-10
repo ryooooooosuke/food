@@ -1,0 +1,139 @@
+/* リセットとベーススタイル */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+}
+
+
+/* メインビジュアル */
+
+.main-visual {
+    padding: 80px 0 60px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.main-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: var(--text);
+}
+
+.main-title span {
+    color: #3B6EA5;
+    /* 主な色を強調 */
+}
+
+.contact-btn {
+    background-color: #faa804;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.line-contact-btn {
+    background-color: #62d847;
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.main-description {
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.main-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.main-stats {
+    display: flex;
+    gap: 35px;
+    padding: 25px 30px;
+    background-color: var(--bg-light);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+}
+
+.main-stat {
+    text-align: center;
+}
+
+.main-stat-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 5px;
+}
+
+.main-stat-label {
+    color: var(--text-light);
+    font-size: 14px;
+}
+
+.main-image {
+    flex: 1;
+}
+
+.main-image img {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+
+/* レスポンシブ対応 */
+
+@media (max-width: 991px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .main-image {
+        order: -1;
+        margin-bottom: 40px;
+    }
+    .main-visual {
+        padding: 40px 0 60px;
+    }
+    .main-container {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 26px;
+    }
+    .main-title {
+        font-size: 32px;
+    }
+    .main-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-buttons .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
