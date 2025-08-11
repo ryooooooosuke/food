@@ -26,7 +26,7 @@ get_header();
 <section class="nayami-section">
     <div class="nayami-container">
         <div class="nayami-content">
-            <h2 class="section-title">こんなお悩みはありませんか？</h2>
+            <h2 class="section-title fade-in">こんなお悩みはありませんか？</h2>
             <div class="nayami-list-area">
                 <ul class="nayami-list">
                     <li class="nayami-item">飲食店を開業したいが、許可申請の手続きがわからない</li>
@@ -134,6 +134,85 @@ get_header();
                 <p>GMOインターネットグループ（東証プライム）など、IT業界での人事部長を15年経験した後、国内最大手の審美歯科グループにて歯科衛生士採用のための会社立ち上げ代表取締役を務める。歯科衛生士採用560名、早期離職率10%未満を達成。2022年にデンタルHR総研株式会社を設立。3年で280医院との契約を締結し、応募者数14,000名、採用数1,200名を超える実績を築く。採用成功率99%、定着率97%を誇り、通算で1,700名以上の歯科衛生士採用を達成。個人レベルで公開されている中では国内圧倒的なナンバーワンである。</p>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- ご依頼の流れセクション -->
+<section class="flow-section">
+    <div class="container">
+        <div class="flow-content">
+            <h2 class="section-title fade-in">ご依頼の流れ</h2>
+            <div class="flow-steps">
+                <!-- STEP 01 -->
+                <div class="flow-step">
+                    <div class="step-number">
+                        <span class="step-label">STEP</span>
+                        <span class="step-num">01</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">ヒアリング</h3>
+                        <p class="step-description">貴社のインターナルコミュニケーション課題をじっくりヒアリング。</p>
+                    </div>
+                </div>
+
+                <!-- 矢印 -->
+                <div class="flow-arrow">
+                    <span>&gt;</span>
+                </div>
+
+                <!-- STEP 02 -->
+                <div class="flow-step">
+                    <div class="step-number">
+                        <span class="step-label">STEP</span>
+                        <span class="step-num">02</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">導入<br>コンサルティング</h3>
+                        <p class="step-description">カテゴリー整理、運用体制、企画など、貴社状況に寄り添ってコンサル。</p>
+                    </div>
+                </div>
+
+                <!-- 矢印 -->
+                <div class="flow-arrow">
+                    <span>&gt;</span>
+                </div>
+
+                <!-- STEP 03 -->
+                <div class="flow-step">
+                    <div class="step-number">
+                        <span class="step-label">STEP</span>
+                        <span class="step-num">03</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">納品&<br>レクチャー</h3>
+                        <p class="step-description">貴社の社内報システムを納品。設定・更新など操作をレクチャー。</p>
+                    </div>
+                </div>
+
+                <!-- 矢印 -->
+                <div class="flow-arrow">
+                    <span>&gt;</span>
+                </div>
+
+                <!-- STEP 04 -->
+                <div class="flow-step">
+                    <div class="step-number">
+                        <span class="step-label">STEP</span>
+                        <span class="step-num">04</span>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title">全社公開〜<br>運用サポート</h3>
+                        <p class="step-description">いよいよ全社公開！実運用開始後も、弊社ディレクターがサポート。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flow-button-wrapper">
+        <a href="#" class="flow-intro-button">
+            <span class="button-text">WEBから相談(24時間受付中)</span>
+            <span class="button-arrow">&gt;</span>
+        </a>
     </div>
 </section>
 
