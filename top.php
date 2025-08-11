@@ -24,24 +24,24 @@ get_header();
 
 <!-- こんなお悩みはありませんか -->
 <section class="nayami-section">
-    <div class="nayami-container">
-        <div class="nayami-content">
-            <h2 class="section-title fade-in">こんなお悩みはありませんか？</h2>
-            <div class="nayami-list-area">
-                <ul class="nayami-list">
-                    <li class="nayami-item">飲食店を開業したいが、許可申請の手続きがわからない</li>
-                    <li class="nayami-item">食品衛生責任者の資格取得方法がわからない</li>
-                    <li class="nayami-item">煩雑な書類作成や申請手続きに時間を取られたくない</li>
-                    <li class="nayami-item">開業後の運営に専念したい</li>
-                    <li class="nayami-item">行政書士に依頼するメリットが知りたい</li>
-                    <li class="nayami-item">飲食店を開業したいが、許可申請の手続きがわからない</li>
-                    <li class="nayami-item">食品衛生責任者の資格取得方法がわからない</li>
-                    <li class="nayami-item">煩雑な書類作成や申請手続きに時間を取られたくない</li>
-                    <li class="nayami-item">開業後の運営に専念したい</li>
-                    <li class="nayami-item">行政書士に依頼するメリットが知りたい</li>
-                </ul>
-            </div>
+    <div class="nayami-container"></div>
+    <div class="nayami-content">
+        <h2 class="section-title fade-in">こんなお悩みはありませんか？</h2>
+        <div class="nayami-list-area">
+            <ul class="nayami-list">
+                <li class="nayami-item">飲食店を開業したいが、許可申請の手続きがわからない</li>
+                <li class="nayami-item">食品衛生責任者の資格取得方法がわからない</li>
+                <li class="nayami-item">煩雑な書類作成や申請手続きに時間を取られたくない</li>
+                <li class="nayami-item">開業後の運営に専念したい</li>
+                <li class="nayami-item">行政書士に依頼するメリットが知りたい</li>
+                <li class="nayami-item">飲食店を開業したいが、許可申請の手続きがわからない</li>
+                <li class="nayami-item">食品衛生責任者の資格取得方法がわからない</li>
+                <li class="nayami-item">煩雑な書類作成や申請手続きに時間を取られたくない</li>
+                <li class="nayami-item">開業後の運営に専念したい</li>
+                <li class="nayami-item">行政書士に依頼するメリットが知りたい</li>
+            </ul>
         </div>
+    </div>
     </div>
 </section>
 
@@ -144,13 +144,13 @@ get_header();
             <h2 class="section-title fade-in">ご依頼の流れ</h2>
             <div class="flow-steps">
                 <!-- STEP 01 -->
-                <div class="flow-step">
+                <div class="flow-step fade-in">
                     <div class="step-number">
                         <span class="step-label">STEP</span>
                         <span class="step-num">01</span>
                     </div>
                     <div class="step-content">
-                        <h3 class="step-title">ヒアリング</h3>
+                        <h3 class="step-title">お問い合わせ&<br>ヒアリング</h3>
                         <p class="step-description">貴社のインターナルコミュニケーション課題をじっくりヒアリング。</p>
                     </div>
                 </div>
@@ -161,13 +161,13 @@ get_header();
                 </div>
 
                 <!-- STEP 02 -->
-                <div class="flow-step">
+                <div class="flow-step fade-in">
                     <div class="step-number">
                         <span class="step-label">STEP</span>
                         <span class="step-num">02</span>
                     </div>
                     <div class="step-content">
-                        <h3 class="step-title">導入<br>コンサルティング</h3>
+                        <h3 class="step-title">見積もり&<br>ご入金</h3>
                         <p class="step-description">カテゴリー整理、運用体制、企画など、貴社状況に寄り添ってコンサル。</p>
                     </div>
                 </div>
@@ -178,13 +178,13 @@ get_header();
                 </div>
 
                 <!-- STEP 03 -->
-                <div class="flow-step">
+                <div class="flow-step fade-in">
                     <div class="step-number">
                         <span class="step-label">STEP</span>
                         <span class="step-num">03</span>
                     </div>
                     <div class="step-content">
-                        <h3 class="step-title">納品&<br>レクチャー</h3>
+                        <h3 class="step-title">申請代行</h3>
                         <p class="step-description">貴社の社内報システムを納品。設定・更新など操作をレクチャー。</p>
                     </div>
                 </div>
@@ -195,13 +195,13 @@ get_header();
                 </div>
 
                 <!-- STEP 04 -->
-                <div class="flow-step">
+                <div class="flow-step fade-in">
                     <div class="step-number">
                         <span class="step-label">STEP</span>
                         <span class="step-num">04</span>
                     </div>
                     <div class="step-content">
-                        <h3 class="step-title">全社公開〜<br>運用サポート</h3>
+                        <h3 class="step-title">業務完了</h3>
                         <p class="step-description">いよいよ全社公開！実運用開始後も、弊社ディレクターがサポート。</p>
                     </div>
                 </div>
@@ -213,6 +213,29 @@ get_header();
             <span class="button-text">WEBから相談(24時間受付中)</span>
             <span class="button-arrow">&gt;</span>
         </a>
+    </div>
+</section>
+
+<!-- お問い合わせフォームセクション -->
+<section class="contact-form-section">
+    <div class="container">
+        <div class="contact-form-content">
+            <div class="contact-form-header">
+                <h2 class="contact-form-title fade-in">お問い合わせ</h2>
+                <p class="contact-form-subtitle fade-in">内容確認後、担当者より<br class="sp-display">2営業日以内にご連絡いたします。</p>
+                <div class="contact-form-notes fade-in">
+                    <p class="note-item">※ お問い合わせは、お電話では承っておりません。</p>
+                    <p class="note-item">※ 営業目的でのお問い合わせはご遠慮ください。</p>
+                </div>
+                <div class="line-consultation-button fade-in">
+                    <a href="<?php echo home_url('/about'); ?>" class="line-consultation-btn">LINEでの相談はこちら</a>
+                </div>
+            </div>
+            <div class="contact-form fade-in">
+                <!-- Contact Form 7 ショートコード（実際のIDに変更してください） -->
+                <?php echo do_shortcode('[contact-form-7 id="8c4a2ab" title="コンタクトフォーム 1"]'); ?>
+            </div>
+        </div>
     </div>
 </section>
 
