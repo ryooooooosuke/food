@@ -195,6 +195,7 @@ h6 {
 
 .point-text {
     color: #333;
+    font-size: 18px;
 }
 
 .point-highlight {
@@ -1254,3 +1255,194 @@ h6 {
         padding: 20px 100px;
     }
 }
+
+
+/* 料金プランセクション */
+
+.pricing-section {
+    padding: 80px 0;
+}
+
+.pricing-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pricing-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4a90e2;
+    margin: 0;
+}
+
+.pricing-plans {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 250px;
+}
+
+.pricing-plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-plan.featured {
+    transform: scale(1.05);
+    position: relative;
+}
+
+.pricing-plan.featured:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.plan-badge {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    z-index: 10;
+}
+
+.badge-text {
+    background-color: #ffa500;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(255, 165, 0, 0.3);
+}
+
+.plan-header {
+    padding: 30px 20px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.plan-color-bar {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.plan-color-bar.red {
+    background-color: #DB8686;
+}
+
+.plan-color-bar.blue {
+    background-color: #4a90e2;
+}
+
+.plan-color-bar.green {
+    background-color: #28a745;
+}
+
+.plan-color-bar.yellow {
+    background-color: #ffc107;
+}
+
+.plan-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.plan-description {
+    padding: 0 20px 30px;
+    text-align: center;
+}
+
+.plan-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.plan-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 5px;
+}
+
+.price-amount {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1;
+}
+
+.price-unit {
+    font-size: 18px;
+    color: #666;
+    font-weight: 500;
+}
+
+
+/* レスポンシブ対応 */
+
+@media (max-width: 992px) {
+    .pricing-plans {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .pricing-plan.featured {
+        transform: none;
+    }
+    .pricing-plan.featured:hover {
+        transform: translateY(-5px);
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-section {
+        padding: 60px 0;
+    }
+    .pricing-title {
+        font-size: 28px;
+    }
+    .pricing-plans {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .plan-name {
+        font-size: 16px;
+    }
+    .price-amount {
+        font-size: 36px;
+    }
+    .price-unit {
+        font-size: 16px;
+    }
+}
+
+```

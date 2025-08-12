@@ -75,7 +75,7 @@ get_header();
 
             <div class="reason-items">
                 <!-- 理由1 -->
-                <div class="reason-item">
+                <div class="reason-item fade-in">
                     <div class="reason-number">01</div>
                     <div class="reason-icon">
                         <img src="<?php echo get_theme_file_uri('assets/images/common/reason1.png'); ?>" alt="迅速な納品">
@@ -85,7 +85,7 @@ get_header();
                 </div>
 
                 <!-- 理由2 -->
-                <div class="reason-item">
+                <div class="reason-item fade-in">
                     <div class="reason-number">02</div>
                     <div class="reason-icon">
                         <img src="<?php echo get_theme_file_uri('assets/images/common/reason2.png'); ?>" alt="専門的な知識">
@@ -95,13 +95,88 @@ get_header();
                 </div>
 
                 <!-- 理由3 -->
-                <div class="reason-item">
+                <div class="reason-item fade-in">
                     <div class="reason-number">03</div>
                     <div class="reason-icon">
                         <img src="<?php echo get_theme_file_uri('assets/images/common/reason3.png'); ?>" alt="柔軟なカスタマイズ">
                     </div>
                     <h3 class="reason-title">柔軟なサポート</h3>
                     <p class="reason-description">お客様の要望に合わせて、カスタマイズ可能なサービスを提供します。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 料金プランセクション -->
+<section class="pricing-section">
+    <div class="container">
+        <div class="pricing-content">
+            <div class="pricing-header">
+                <p class="pricing-subtitle fade-in">利用用途にあわせて選択できる</p>
+                <h2 class="pricing-title fade-in">サービス・料金</h2>
+            </div>
+
+            <div class="pricing-plans">
+                <!-- プロフェッショナルエディション -->
+                <div class="pricing-plan fade-in">
+                    <div class="plan-header">
+                        <div class="plan-color-bar red"></div>
+                        <h3 class="plan-name">飲食店営業許可申請<br>サポート</h3>
+                    </div>
+                    <div class="plan-description">
+                        <p class="plan-subtitle">書類作成から検査立会・許可証受取までの手続き一式を含む</p>
+                        <div class="plan-price">
+                            <span class="price-amount">55,000</span>
+                            <span class="price-unit">円〜</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- スタンダードエディション -->
+                <div class="pricing-plan fade-in">
+                    <div class="plan-header">
+                        <div class="plan-color-bar blue"></div>
+                        <h3 class="plan-name">飲食店営業許可更新申請<br>サポート
+                        </h3>
+                    </div>
+                    <div class="plan-description">
+                        <p class="plan-subtitle">書類作成から検査立会・許可証受取までの手続き一式を含む</p>
+                        <div class="plan-price">
+                            <span class="price-amount">33,000</span>
+                            <span class="price-unit">円〜</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エントリーオフィスエディション -->
+                <div class="pricing-plan fade-in">
+                    <div class="plan-header">
+                        <div class="plan-color-bar green"></div>
+                        <h3 class="plan-name">深夜酒類提供<br>飲食店営業届出</h3>
+                    </div>
+                    <div class="plan-description">
+                        <p class="plan-subtitle">書類作成から検査立会・許可証受取までの手続き一式を含む</p>
+                        <div class="plan-price">
+                            <span class="price-amount">165,000</span>
+                            <span class="price-unit">円〜</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- エントリービデオエディション -->
+                <div class="pricing-plan fade-in">
+                    <div class="plan-header">
+                        <div class="plan-color-bar yellow"></div>
+                        <h3 class="plan-name">風俗営業許可申請<br>サポート</h3>
+                    </div>
+                    <div class="plan-description">
+                        <p class="plan-subtitle">書類作成から検査立会・許可証受取までの手続き一式を含む</p>
+                        <div class="plan-price">
+                            <span class="price-amount">198,000</span>
+                            <span class="price-unit">円〜</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
