@@ -22,8 +22,7 @@ add_action('wp_enqueue_scripts', function () {
 		wp_enqueue_script('particles-js', get_stylesheet_directory_uri() . '/js/particles/particles.js', [], '2.0.0', true);
 		wp_enqueue_script('particles-app', get_stylesheet_directory_uri() . '/js/particles/app.js', ['particles-js'], '1.0.0', true);
 		wp_enqueue_style('particles-css', get_stylesheet_directory_uri() . '/css/particles.css', [], '1.0.0');
-	}
-	// TOPページテンプレート用のCSSを読み込み
+	}	// TOPページテンプレート用のCSSを読み込み
 	if (is_page_template('top.php')) {
 		wp_enqueue_style('top-css', get_stylesheet_directory_uri() . '/css/top.css', [], '1.0.0');
 		// anime.jsライブラリを読み込み
@@ -32,6 +31,8 @@ add_action('wp_enqueue_scripts', function () {
 		wp_enqueue_script('text-animation', get_stylesheet_directory_uri() . '/js/text-animation.js', ['anime-js'], '1.0.0', true);
 		// フェードインアニメーションスクリプトを読み込み
 		wp_enqueue_script('fade-in-animation', get_stylesheet_directory_uri() . '/js/fade-in-animation.js', [], '1.0.0', true);
+		// FAQアコーディオンスクリプトを読み込み
+		wp_enqueue_script('faq-accordion', get_stylesheet_directory_uri() . '/js/faq-accordion.js', [], '1.0.0', true);
 	}
 }, 11);
 

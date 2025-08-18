@@ -179,7 +179,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            
+
             <!-- 注意事項 -->
             <div class="pricing-notes fade-in">
                 <h3 class="notes-title">料金に関する注意事項</h3>
@@ -302,6 +302,81 @@ get_header();
         </a>
     </div>
 </section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+    <div class="container">
+        <div class="section-header fade-in">
+            <h2 class="section-title">よくあるご質問</h2>
+            <p class="faq-section-description">
+                お客様からよくお寄せいただく質問をまとめました。<br>
+                その他ご不明な点がございましたら、お気軽にお問い合わせください。
+            </p>
+        </div>
+        <div class="faq-container fade-in">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-text">飲食店営業許可取得にかかる期間はどのくらいですか？</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>申請から許可取得まで、通常2〜4週間程度かかります。ただし、店舗の状況や申請書類の準備状況により前後する場合があります。お急ぎの場合は、事前にご相談ください。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-text">許可取得にかかる費用はどのくらいですか？</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>基本プランは35,000円からとなっております。店舗の規模や業態により追加料金が発生する場合があります。詳細はお見積りをご依頼ください。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-text">既存店舗の営業許可更新もお任せできますか？</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>はい、もちろん対応いたします。更新手続きも新規取得と同様に、書類作成から申請まで一括してサポートいたします。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-text">深酒類提供飲食店営業の許可も取得できますか？</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>はい、対応しております。酒類販売業免許も含め、飲食店経営に必要な各種許可・免許の取得をトータルサポートいたします。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-text">相談だけでも料金はかかりますか？</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>初回相談は無料です。お電話やLINEでのご相談も無料で承っておりますので、お気軽にお問い合わせください。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span class="faq-text">店舗の内装工事前でも相談できますか？</span>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>はい、内装工事前のご相談も大歓迎です。許可取得の観点から適切な店舗設計についてアドバイスいたします。事前相談により、スムーズな許可取得が可能になります。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- お問い合わせフォームセクション -->
 <section class="contact-form-section">
