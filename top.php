@@ -179,6 +179,18 @@ get_header();
                     </div>
                 </div>
             </div>
+            
+            <!-- 注意事項 -->
+            <div class="pricing-notes fade-in">
+                <h3 class="notes-title">料金に関する注意事項</h3>
+                <ul class="notes-list">
+                    <li class="notes-item">上記料金は基本料金となります。申請に必要な実費（印紙代・証明書取得費用等）は別途お客様のご負担となります。</li>
+                    <li class="notes-item">遠方への出張が必要な場合、交通費（実費）を別途ご請求させていただきます。</li>
+                    <li class="notes-item">書類の郵送が必要な場合、郵送費（実費）をご負担いただきます。</li>
+                    <li class="notes-item">お客様の状況や申請内容により、追加作業が発生する場合は事前にご相談の上、別途料金をご請求いたします。</li>
+                    <li class="notes-item">料金は税込み表示です。お支払いは事前振込みでお願いしております。</li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>

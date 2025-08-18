@@ -1365,6 +1365,10 @@ h6 {
     background-color: #ffc107;
 }
 
+.plan-color-bar.red {
+    background-color: #dc3545;
+}
+
 .plan-name {
     font-size: 18px;
     font-weight: bold;
@@ -1442,6 +1446,78 @@ h6 {
     }
     .price-unit {
         font-size: 16px;
+    }
+}
+
+
+/* 料金プラン注意事項 */
+
+.pricing-notes {
+    max-width: 800px;
+    margin: 60px auto 0;
+    padding: 30px;
+    background-color: #fff8f0;
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+}
+
+.notes-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.notes-title::before {
+    content: "⚠️";
+    margin-right: 8px;
+}
+
+.notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notes-item {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.notes-item::before {
+    content: "•";
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.notes-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/* レスポンシブ対応 - 注意事項 */
+
+@media (max-width: 768px) {
+    .pricing-notes {
+        margin: 40px auto 0;
+        padding: 20px;
+    }
+    .notes-title {
+        font-size: 18px;
+    }
+    .notes-item {
+        font-size: 16px;
+        padding-left: 16px;
     }
 }
 
